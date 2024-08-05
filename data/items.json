@@ -1,0 +1,5 @@
+{
+  "potato": { "emoji": "🥔", "price": 10 },
+  "onion": { "emoji": "🧅", "price": 15 },
+  "carrot": { "emoji": "🥕", "price": 20 }
+}
