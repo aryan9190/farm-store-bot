@@ -1,6 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 import { Middleware, SlackCommandMiddlewareArgs } from '@slack/bolt';
-import { showBuyModal } from '../farmstoreBuy';
+import { showBuyModal } from '../genstoreBuy';
 import { getFarmItems } from '../utils/farmItems';
 
 export const handleFarmshopCommand: (prisma: PrismaClient) => Middleware<SlackCommandMiddlewareArgs> =
