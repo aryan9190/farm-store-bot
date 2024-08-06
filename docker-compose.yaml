@@ -1,0 +1,11 @@
+version: '3'
+services:
+  farm-bot:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - SLACK_SIGNING_SECRET=${SLACK_SIGNING_SECRET}
+      - SLACK_APP_TOKEN=${SLACK_APP_TOKEN}
+      - SLACK_BOT_TOKEN=${SLACK_BOT_TOKEN}
+      - DATABASE_URL=${DATABASE_URL}
