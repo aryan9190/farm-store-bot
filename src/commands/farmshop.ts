@@ -1,3 +1,5 @@
+const adminIds = [];
+
 export const handleFarmshopCommand: (prisma: PrismaClient) => Middleware<SlackCommandMiddlewareArgs> =
   (prisma) => async ({ command, ack, say }) => {
     await ack();
