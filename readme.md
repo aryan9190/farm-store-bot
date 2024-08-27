@@ -78,11 +78,12 @@ This will build and start the bot in a container, exposing port 3000.
 ## Usage
 
 - **Buy Items**: `/farmshop buy`
-- **Set Item Price**: `/farmshop setprice <item> <price>`
-- **View Items**: The bot will periodically send updates to the Slack channel.
 
 ## Commands
 
 - **Make an Offer**: `/farmshop offer <item> <price>`
-- **Set Item Price**: `/farmshop setprice <item> <price>`
+
+#### Note
+
+-**This needs to be updated**
 
