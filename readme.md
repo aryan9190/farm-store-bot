@@ -6,7 +6,7 @@ Farm Store Bot is a Slack bot for Bag that allows users to buy and sell farm ite
 
 - **Make Offers**: Users can make offers for farm items.
 
-# Prerequisites
+## Prerequisites
 
 1. **Node.js**: Ensure Node.js (v14 or higher) is installed.
 2. **Docker**: Install Docker and Docker Compose for containerization.
