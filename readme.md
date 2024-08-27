@@ -1,17 +1,12 @@
 # Farm Store Bot
 
-Farm Store Bot is a Slack bot that allows users to buy and sell farm items using the `@hackclub/bag` package. Users can make offers, set prices for items, and trade using a simple command interface.
+Farm Store Bot is a Slack bot for Bag that allows users to buy and sell farm items.
 
 ## Features
 
 - **Make Offers**: Users can make offers for farm items.
-- **Set Prices**: Admins can set prices for different farm items.
 
-### `usage.md` - Detailed Instructions for Using Farm Store Bot
-
----
-
-## Prerequisites
+# Prerequisites
 
 1. **Node.js**: Ensure Node.js (v14 or higher) is installed.
 2. **Docker**: Install Docker and Docker Compose for containerization.
