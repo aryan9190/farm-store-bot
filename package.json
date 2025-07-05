@@ -1,0 +1,27 @@
+{
+  "name": "bag-store-template",
+  "version": "1.0.0",
+  "description": "A template repo for a store bot using Slack and @hackclub/bag.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "lint": "npx eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.6.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^20.14.9",
+    "eslint": "^8.57.0",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^7.15.0"
+  },
+  "dependencies": {
+    "@hackclub/bag": "^3.1.2",
+    "@slack/bolt": "^3.19.0",
+    "ts-node": "^10.9.2"
+  }
+}

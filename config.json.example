@@ -1,0 +1,18 @@
+{
+    "SLACK_APP_TOKEN": "xapp-your-app-token-here",
+    "SLACK_BOT_TOKEN": "xoxb-your-bot-token-here",
+
+    "BAG_APP_ID": 37,
+    "BAG_APP_KEY": "134a9d0c-your-bag-key-here",
+
+    "YOUR_USER_ID": "U05PYFCJXV0",
+    
+    "marketChannelId": "C06GA0PSXC5",
+
+    "greetingText": "Welcome to the store! Here are the items you can buy:",
+
+    "itemsToSell": [
+        {"id": "Cake", "price": 360},
+        {"id": "Fancy Pants", "price": 400}
+    ]
+}

@@ -1,0 +1,12 @@
+[Unit]
+Description=Bag Storefront
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=YOUR_DIRECTORY_HERE
+ExecStart=/usr/bin/npm start
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
